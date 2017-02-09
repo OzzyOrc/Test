@@ -1,0 +1,8 @@
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\bin\Debug\Question2.exe.config
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\bin\Debug\Question2.exe
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\bin\Debug\Question2.pdb
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\bin\Debug\nunit.framework.dll
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\bin\Debug\nunit.framework.xml
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\obj\Debug\QuestionTwo.csprojResolveAssemblyReference.cache
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\obj\Debug\Question2.exe
+c:\users\djori\documents\visual studio 2015\Projects\Test\Question2\obj\Debug\Question2.pdb
