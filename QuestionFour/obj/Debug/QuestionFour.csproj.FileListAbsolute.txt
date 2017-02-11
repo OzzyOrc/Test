@@ -1,0 +1,8 @@
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\bin\Debug\QuestionFour.exe.config
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\bin\Debug\QuestionFour.exe
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\bin\Debug\QuestionFour.pdb
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\bin\Debug\nunit.framework.dll
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\bin\Debug\nunit.framework.xml
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\obj\Debug\QuestionFour.csprojResolveAssemblyReference.cache
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\obj\Debug\QuestionFour.exe
+C:\Users\djori\documents\visual studio 2015\Projects\Test\QuestionFour\obj\Debug\QuestionFour.pdb
