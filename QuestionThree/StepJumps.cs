@@ -56,7 +56,7 @@ namespace QuestionThree
                 // If Jack is fine with what step he is on
                 if (!isValidInteger)
                 {
-                    return jacksCurrentSteps;
+                    break;
                 }
                 else
                 {
@@ -71,6 +71,8 @@ namespace QuestionThree
             }
 
             Console.WriteLine("Final result is: "  + jacksCurrentSteps);
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadLine();
             return jacksCurrentSteps;
         }
 
