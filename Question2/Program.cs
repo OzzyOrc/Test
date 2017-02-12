@@ -10,9 +10,6 @@ namespace QuestionTwo
     {
         static void Main(string[] args)
         {
-            Pangram pangram = new Pangram();
-
-            ////pangram.letterCounter("Hi there");
         }
     }
 }

@@ -5,4 +5,3 @@ c:\users\djori\documents\visual studio 2015\Projects\Test\Question1\bin\Debug\nu
 c:\users\djori\documents\visual studio 2015\Projects\Test\Question1\bin\Debug\nunit.framework.xml
 c:\users\djori\documents\visual studio 2015\Projects\Test\Question1\obj\Debug\Question1.exe
 c:\users\djori\documents\visual studio 2015\Projects\Test\Question1\obj\Debug\Question1.pdb
-C:\Users\djori\documents\visual studio 2015\Projects\Test\Question1\obj\Debug\QuestionOne.csprojResolveAssemblyReference.cache

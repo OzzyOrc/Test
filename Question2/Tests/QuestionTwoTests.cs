@@ -44,6 +44,14 @@ namespace QuestionTwo.Tests
         }
 
         [Test]
+        public void MissingOneLetterToQualifyAsPangram()
+        {
+            Pangram pangram = new Pangram();
+
+            Assert.AreEqual(pangram.IsPangram("Pac my box with five dozen liquor jugs."), 0);
+        }
+
+        [Test]
         public void InvalidPangramReturnsZeroAgain()
         {
             Pangram pangram = new Pangram();
