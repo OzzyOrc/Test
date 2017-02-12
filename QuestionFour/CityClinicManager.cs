@@ -11,8 +11,10 @@ namespace QuestionFour
     {
         public CityClinicManager()
         {
-
+            // Do nothing
         }
+
+        private int numOfCities;
 
         /// <summary>
         /// Purpose of this method is to obtain valid 
@@ -26,6 +28,7 @@ namespace QuestionFour
             string inputNumberOfCities = Console.ReadLine();
             int numberOfCities;
             bool isNumberOfCitiesValid = int.TryParse(inputNumberOfCities, out numberOfCities);
+            numOfCities = numberOfCities;
 
             if (isNumberOfCitiesValid)
             {
@@ -39,6 +42,8 @@ namespace QuestionFour
                 var maxPopulationPerClinic = DistributeClinicsOverCities(cityManager, numberOfClinics);
 
                 Console.WriteLine("The maximum number of people each immunization clinic can hold is: " + maxPopulationPerClinic);
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadLine();
             }
             else
             {
@@ -48,19 +53,23 @@ namespace QuestionFour
 
         private int UserInputNumberOfClinics()
         {
-            Console.WriteLine("Enter the number of clinics: ");
-            string inputNumberOfClinics = Console.ReadLine();
-            int numberOfClinics;
-            bool isNumberOfClinicsValid = int.TryParse(inputNumberOfClinics, out numberOfClinics);
+            while (true)
+            {
+                Console.WriteLine("Enter the number of clinics: ");
+                string inputNumberOfClinics = Console.ReadLine();
+                int numberOfClinics;
+                bool isNumberOfClinicsValid = int.TryParse(inputNumberOfClinics, out numberOfClinics);
 
-            if (isNumberOfClinicsValid)
-            {
-                return numberOfClinics;
-            }
-            else
-            {
-                Console.WriteLine("Number of clinics must be an integer only!");
-                return 0;
+                // Every city must have 1 clinic
+                if (isNumberOfClinicsValid && numberOfClinics >= numOfCities)
+                {
+                    return numberOfClinics;
+                }
+                else
+                {
+                    Console.WriteLine("Number of clinics must be an integer only and greater than the number of cities!");
+                    continue;
+                }
             }
         }
 
@@ -81,6 +90,7 @@ namespace QuestionFour
 
         public int DistributeClinicsOverCities(CityManager totalCities, int maxClinics)
         {
+            // Don't want to return a double due to the context of population
             var totalPopulaion = totalCities.Cities.Sum(city => city.Population);
             var maxPopulationPerClinic = totalPopulaion / maxClinics;
             return maxPopulationPerClinic;

@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/TestResults
+/QuestionThree/bin
+/QuestionThree/obj
+/QuestionFour/obj
+/QuestionFour/bin
+/Question2/obj
+/Question2/bin
+/Question1/bin
+/Question1/obj

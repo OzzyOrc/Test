@@ -24,7 +24,7 @@ namespace QuestionFour.City
             {
                 return cities;
             }
-            set
+            private set
             {
                 cities = value;
             }
